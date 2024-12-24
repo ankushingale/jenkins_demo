@@ -13,7 +13,7 @@ public class Practice_main {
 
 		
 		Student std=new Student(101,"Ankush",22220136,std_marks);
-		Student std1=new Student(111,"Pritam",2222045,std_marks1);
+		Student std1=new Student(111,"Nishant",2222045,std_marks1);
 
 				
 		Methods mt=new Methods();
