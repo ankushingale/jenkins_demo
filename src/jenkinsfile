@@ -7,14 +7,14 @@ pipeline {
          
          steps {
             
-            sh 'javac Practice_main.java'
+            sh 'src/javac Practice_main.java'
          }
       }
       
       stage('Run Java Program') {
          
          steps {
-            sh 'java Practice_main'
+            sh 'src/java Practice_main'
          }
       }
    }
