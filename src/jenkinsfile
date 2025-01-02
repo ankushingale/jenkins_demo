@@ -14,7 +14,7 @@ pipeline {
       stage('Run Java Program') {
          
          steps {
-            sh 'java -cp bin Practice_main'
+            sh 'java Practice_main'
          }
       }
    }
