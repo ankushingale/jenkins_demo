@@ -7,7 +7,7 @@ pipeline {
          
          steps {
             
-            sh 'javac src/Practice_main.java'
+            sh 'javac -d bin src/*.java'
          }
       }
       
