@@ -7,14 +7,14 @@ pipeline {
          
          steps {
             
-            sh 'javac Practice_Again/src/Practice_main.java'
+            sh 'javac /Users/ankushdineshingale/eclipse-workspace/Practice_Again/Practice_main.java'
          }
       }
       
       stage('Run Java Program') {
          
          steps {
-            sh 'java /Practice_Again/src/Practice_main'
+            sh 'java /Users/ankushdineshingale/eclipse-workspace/Practice_Again/Practice_main'
          }
       }
    }
