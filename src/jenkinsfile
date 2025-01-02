@@ -1,0 +1,21 @@
+pipeline {
+   agent any
+   
+   stages {
+      
+      stage('Compile java program ') {
+         
+         steps {
+            
+            sh 'javac Practice_main.java'
+         }
+      }
+      
+      stage('Run Java Program') {
+         
+         steps {
+            sh 'java Practice_main'
+         }
+      }
+   }
+}
